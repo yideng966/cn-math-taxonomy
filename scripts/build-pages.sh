@@ -3,7 +3,7 @@ set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 DIST="$ROOT/dist"
-SITE_ORIGIN="${SITE_ORIGIN:-https://20250424.xyz}"
+SITE_ORIGIN="${SITE_ORIGIN:-https://math.20250424.xyz}"
 
 mkdir -p "$DIST/data"
 cp "$ROOT/index.html" "$ROOT/sw.js" "$ROOT/manifest.webmanifest" "$DIST/"
